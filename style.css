@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+    background: whitesmoke;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.home{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.home h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+.home p{
+    font-size: 25px;
+}
+
+span{
+    color: orange;
+}
+.about{
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.about p{
+    color: #555;
+    line-height: 22px;
+}
+.logo{
+    width: 230px;
+    height: 200px;
+}
+.edu, .projects{
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.home a{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    padding-bottom: 500px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.scroll{
+    position: relative;
+    margin-top: 120px;
+    margin-left: 50%;
+}
+
+.scroll img{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-left: 2%;
+
+}
+
+.edu ul li, .projects ul li{
+    padding-top: 20px;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .hero1{
+    left: 45%;
+}
